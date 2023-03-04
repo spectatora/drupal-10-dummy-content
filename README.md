@@ -1,5 +1,5 @@
 
-# How to install Drupal 10 and generate dummy content in 10mins
+# How to install Drupal 10 and generate dummy content in 10 min
 
 
 # We have
@@ -13,7 +13,7 @@ https://www.drupal.org/docs/develop/using-composer/manage-dependencies
 ```composer create-project drupal/recommended-project drupal```
 
 
-# 2. Create a databse in phpmyadmin
+# 2. Create a database in phpmyadmin
 
 ```drupal -> utf8mb4_general_ci```
 
@@ -21,9 +21,9 @@ https://www.drupal.org/docs/develop/using-composer/manage-dependencies
 
 ```
 <VirtualHost *:80>
- DocumentRoot "C:/xampp/htdocs/drupal"
+ DocumentRoot "C:/xampp/htdocs/drupal/web"
  ServerName my-drupal.com
- <Directory "C:/xampp/htdocs/drupal">
+ <Directory "C:/xampp/htdocs/drupal/web">
  Options Indexes FollowSymLinks MultiViews
  AllowOverride all
  Order Deny,Allow
@@ -33,7 +33,7 @@ https://www.drupal.org/docs/develop/using-composer/manage-dependencies
 </VirtualHost>
 ```
 
-# 4. Install theme 
+# 4. Install a theme 
 
 https://www.drupal.org/project/tara
 
